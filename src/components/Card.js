@@ -16,16 +16,16 @@ export default function Card() {
   return (
     <div class="grid grid-cols-4 gap-6">
       {countries.map((country) => (
-        <div class="rounded-lg shadow-lg bg-white max-w-sm">
+        <div class="rounded-lg shadow-lg bg-white max-w-sm w-[20rem]">
           <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
             <img
-              class="rounded-t-lg object-cover"
+              class="rounded-t-lg object-cover min-h-[13rem]"
               src={country.flags.png}
               alt={country.flag}
             />
           </a>
           <div class="px-6">
-            <h2 class="text-gray-900 text-xl font-bold mb-5">
+            <h2 class="text-gray-900 text-xl font-bold my-5">
               {country.name.common}
             </h2>
             <p class="text-gray-700 text-base font-semibold mb-2">
