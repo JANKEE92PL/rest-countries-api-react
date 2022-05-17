@@ -3,9 +3,9 @@ import { MoonIcon } from "@heroicons/react/solid";
 
 export default function Header() {
   return (
-    <div className="sm:flex lg:items-center lg:justify-between z-10 bg-white shadow-md">
+    <div className="sm:flex lg:items-center lg:justify-between z-10 bg-white shadow-md px-16">
       <div className="flex-1 min-w-0">
-        <h2 className="p-8 text-2xl font-bold leading-7 text-gray-800 sm:text-3xl sm:truncate inline-flex">
+        <h2 className="text-2xl font-bold leading-7 text-gray-800 sm:text-3xl sm:truncate inline-flex">
           Where in the World?{" "}
         </h2>
       </div>

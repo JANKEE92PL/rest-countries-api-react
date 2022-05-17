@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 .wrapper {
-    padding: 2rem;
-    margin: auto;
+    margin: 4rem;
 }
