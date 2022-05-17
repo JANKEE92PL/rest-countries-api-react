@@ -12,7 +12,7 @@ function App() {
           <Search></Search>
           <Dropdown></Dropdown>
         </nav>
-          <Card></Card>
+        <Card></Card>
       </div>
     </div>
   );
