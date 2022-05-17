@@ -1,8 +1,11 @@
 export default function Search() {
   return (
-    <form method="GET" className="p-8 w-1/3">
-      <div className="relative text-gray-600 px-8 my-4 bg-white rounded hover:shadow-md">
-        <span className="absolute inset-y-0 left-0 flex items-center pl-2">
+    <form method="GET" className="w-1/3">
+      <div
+        className="relative text-gray-600 bg-white hover:shadow-md transition w-max
+      ease-in-out"
+      >
+        <span className="absolute inset-y-0 left-0 flex items-center pl-4 ">
           <button type="submit" className="p-1">
             <svg
               fill="none"
@@ -20,7 +23,7 @@ export default function Search() {
         <input
           type="search"
           name="q"
-          className="text-sm text-gray-600 bg-white pl-10 border-0 focus:ring-0 w-96 py-6"
+          className="text-sm text-gray-600 bg-white pl-16 border-0 focus:ring-0 w-96 py-4 pr-8 rounded-lg"
           placeholder="Search..."
           autoComplete="off"
         />
