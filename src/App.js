@@ -5,7 +5,7 @@ import Card from "./components/Card";
 
 function App() {
   return (
-    <div className="bg-gray-100 z-0">
+    <div className="bg-gray-100 z-0" id="body">
       <Header></Header>
       <div className="wrapper">
         <nav className="flex justify-between items-center mb-16">
